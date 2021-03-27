@@ -11,20 +11,12 @@ A blogpost for this project can be found here: [Predicting customer churn with P
 ## Installation
 The code was developed using Python 3.6.3. Necessary packages beyond the Python Standard Library are:
 
-matplotlib==3.3.4
-numpy==1.19.5
-pandas==0.23.3
-pyspark==2.4.3
-seaborn==0.11.1 
-The environment can be installed using requirements.txt.
+* matplotlib==3.3.4
+* numpy==1.19.5
+* pandas==0.23.3
+* pyspark==2.4.3
+* seaborn==0.11.1 
 
-For sparkify-user-churn-medium.ipynb
-
-matplotlib==3.2.2
-numpy==1.18.5
-pandas==0.25.3
-pyspark==2.4.3
-seaborn==0.10.1
 
 ## Introduction
 
