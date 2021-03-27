@@ -20,7 +20,7 @@ seaborn==0.10.1
 
 ## Introduction
 
-Sparkify is a make belief music streaming app with free and paid tiers, users can upgrade, downgrade or cancel their service at any time, when users interact with the service they generate data, which can be used to gain insights, in this project we will be looking at identifying users who are at risk to churn i.e Cancelling their service altogether, the data used in this project was gotten from Udacity
+Sparkify is a make belief music streaming app with free and paid tiers, users can upgrade, downgrade or cancel their service at any time, when users interact with the service they generate data, which can be used to gain insights, in this project we will be looking at identifying users who are at risk to churn i.e Cancelling their service altogether, the datasets used in this project was gotten from [Udacity](https://www.udacity.com/).
 
 The project is divided into the following sections
 
@@ -41,3 +41,7 @@ Logistic Regression, Gradient Boosted Trees, Random Forest classifiers were used
 #### VI. Feature Importance.
 
 #### VII. Conclusion
+
+## Licensing, Authors, Acknowledgements
+
+This project was done as part of the [Udacity Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
