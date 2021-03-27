@@ -2,8 +2,8 @@
 A blogpost for this project can be found here: [Predicting customer churn with PySpark](blank.com).
 
 
-1. [Overview](#overview)
-2. [Introduction](#introduction)
+1. [Installation](#installation)
+2. [Overview](#overview)
 3. [Methodology](#methodology)
 4. [File Descriptions](#file-descriptions)
 5. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
@@ -20,7 +20,7 @@ The code was developed using Python 3.6.3. Necessary packages beyond the Python 
 
 ## Overview
 
-Sparkify is a make belief music streaming app with free and paid tiers, users can upgrade, downgrade or cancel their service at any time, when users interact with the service they generate data, which can be used to gain insights, in this project we will be looking at identifying users who are at risk to churn i.e Cancelling their service altogether, the datasets used in this project was gotten from [Udacity](https://www.udacity.com/).
+Sparkify is a make belief music streaming app with free and paid tiers, users can upgrade, downgrade or cancel their service at any time, when users interact with the service they generate data, which can be used to gain insights, in this project we will be looking at identifying users who are at risk to churn (users who cancel their service) the datasets used in this project was gotten from [Udacity](https://www.udacity.com/).
 
 ## Methodology 
 
