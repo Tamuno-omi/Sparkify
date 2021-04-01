@@ -21,6 +21,10 @@ The code was developed using Python 3.6.3. Necessary packages beyond the Python 
 
 Sparkify is a make belief music streaming app with free and paid tiers, users can upgrade, downgrade or cancel their service at any time, when users interact with the service they generate data, which can be used to gain insights, in this project we will be looking at identifying users who are at risk to churn (users who cancel their service) the datasets used in this project was gotten from [Udacity](https://www.udacity.com/).
 
+## Metrics for Model Performance:
+
+We select F-1 score as our evaluation metrics. The reason we use F-1 score here is because it gives us a simple measure of the precision (whether we send offer to the right person) and recall (whether we miss one that we should’ve sent the offer) of the model. We want to identify those who are likely to churn and give them some special offers in trying to keep the customer, but at the same time, we do not want to send too many offers (most likely a monetary incentive) to those who are not as likely to churn and therefore wasting money and resources.
+
 ## Methodology 
 
 The project is divided into the following sections
@@ -37,12 +41,15 @@ After familiarizing ourselves with the data we select promising featues to build
 Logistic Regression, Gradient Boosted Trees, Random Forest classifiers were used
 
 #### V. Evaluation.
-The logistic regression model has a **accuracy of: 0.88, and F1 score of:0.83, using 378.90 seconds** to complete.
-The gradient boosted trees model has a **accuracy of: 0.65, and F1 score of: 0.69, using 849.36 seconds**  to complete.
-The support vector machine model has a **accuracy of: 0.88, and F1 score of: 0.83, using 477.02 seconds**  to complete.
-The random forest model has a **accuracy of: 0.88, and F1 score of: 0.83, using 400.06**  to complete.
 
-The **Random Forest Model** as the Final Model because of its accuracy  and conduct a grid search to fine tune our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
+| **Classification Model** | **Accuracy** | **F1-Score** | **Time(s)** |
+|--------------------------|--------------|--------------|-------------|
+| Logistic Regression      | 0.88         | 0.83         | 378.90      |
+| Gradient Boosted Trees   | 0.65         | 0.69         | 849.36      |
+| Support Vector Machine   | 0.88         | 0.83         | 477.02      |
+| Random Forest            | 0.88         | 0.83         | 400.06      |
+
+The **Random Forest Model** was selected as the Final Model because of its accuracy , we conducted a grid search to fine tune our model this time. In the future, we may instead implement Logistic Regression for more time efficiency. our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
 
 #### VI. Feature Importance.
 We utilized the feature importance attribute of the Random Forest model and we observed that the length of using the service plays a very important role.
