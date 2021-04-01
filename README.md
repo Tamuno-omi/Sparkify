@@ -5,8 +5,7 @@ A blogpost for this project can be found here: [Predicting customer churn with P
 1. [Installation](#installation)
 2. [Overview](#overview)
 3. [Methodology](#methodology)
-4. [File Descriptions](#file-descriptions)
-5. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
+4. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
 
 ## Installation
 The code was developed using Python 3.6.3. Necessary packages beyond the Python Standard Library are:
