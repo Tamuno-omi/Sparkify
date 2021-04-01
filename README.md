@@ -1,5 +1,5 @@
 # Sparkify
-A blogpost for this project can be found here: [Predicting customer churn with PySpark](blank.com).
+A blogpost for this project can be found here: [Predicting customer churn with PySpark](https://tamuno-omi.medium.com/predicting-user-churn-with-pyspark-8e925248759).
 
 
 1. [Installation](#installation)
