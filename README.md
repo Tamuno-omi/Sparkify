@@ -4,8 +4,9 @@ A blogpost for this project can be found here: [Predicting customer churn with P
 
 1. [Installation](#installation)
 2. [Overview](#overview)
-3. [Methodology](#methodology)
-4. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
+3. [Metrics for Model Performance](#metrics-for-model-performance)
+4. [Methodology](#methodology)
+5. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
 
 ## Installation
 The code was developed using Python 3.6.3. Necessary packages beyond the Python Standard Library are:
@@ -49,7 +50,7 @@ Logistic Regression, Gradient Boosted Trees, Random Forest classifiers were used
 | Support Vector Machine   | 0.88         | 0.83         | 477.02      |
 | Random Forest            | 0.88         | 0.83         | 400.06      |
 
-The **Random Forest Model** was selected as the Final Model because of its accuracy , we conducted a grid search to fine tune our model this time. In the future, we may instead implement Logistic Regression for more time efficiency. our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
+The **Random Forest Model** was selected as the Final Model because of its accuracy , we conducted a grid search to fine tune our model this time. In the future, we may instead implement Logistic Regression for more time efficiency, our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
 
 #### VI. Feature Importance.
 We utilized the feature importance attribute of the Random Forest model and we observed that the length of using the service plays a very important role.
