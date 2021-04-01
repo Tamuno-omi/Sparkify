@@ -38,13 +38,24 @@ After familiarizing ourselves with the data we select promising featues to build
 Logistic Regression, Gradient Boosted Trees, Random Forest classifiers were used
 
 #### V. Evaluation.
+The logistic regression model has a **accuracy of: 0.88, and F1 score of:0.83, using 378.90 seconds** to complete.
+The gradient boosted trees model has a **accuracy of: 0.65, and F1 score of: 0.69, using 849.36 seconds**  to complete.
+The support vector machine model has a **accuracy of: 0.88, and F1 score of: 0.83, using 477.02 seconds**  to complete.
+The random forest model has a **accuracy of: 0.88, and F1 score of: 0.83, using 400.06**  to complete.
+
+The **Random Forest Model** as the Final Model because of its accuracy  and conduct a grid search to fine tune our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
 
 #### VI. Feature Importance.
+We utilized the feature importance attribute of the Random Forest model and we can observe that the length of using the service plays a very important role.
+![image](https://user-images.githubusercontent.com/39832553/113281035-fc66fb80-92dc-11eb-9ed4-550b35a375bd.png)
 
 #### VII. Conclusion
+We implemented a model to predict customer churn on a music streaming sevice, after loading the data we performed cleaning tasks removing rows without user id, generated additional columns from exiting one e.g converting timestamp to get date, year, month, weekday, number of days since registration, after that we defined churn using the 'cancellation confirmation' page and explored its relationship to other variable, after which we selected features we found interesting to implement in out model, we selected the logistic regression, GBM, SVM, and RF classification models and selected the Random Forest as our final model for predicting our result.
 
-## File descriptions
+Reflection The project gave me an opportunity to work with a larger volume of data than I would have on a personal laptop, and also gave me a highlevel exposure to the Apache spark and IBM WATSON STUDIO enviroment
 
+**Improvement**
+The features can be improved a lot after considering more factors, adding more domain knowledges and expertise. Although the volume of data may required tools such as spark to analyze, but we can use more data to have better results as the user base grow, the model has a huge potential to improve if the sample size increase, and the expected performance will also increase. The classification models could be further improved in the hyperparameter tuning process with extended parameter grids to search a broader range of possible parameter combinations.
 
 ## Licensing, Authors, Acknowledgements
 
