@@ -46,7 +46,7 @@ The random forest model has a **accuracy of: 0.88, and F1 score of: 0.83, using 
 The **Random Forest Model** as the Final Model because of its accuracy  and conduct a grid search to fine tune our model this time and reached **83.91% accuracy and a F1 score of 0.77** It is interesting to note we cannot outperform the accuracy and F1 score obtained with default parameters, probably due to the small size of the dataset.
 
 #### VI. Feature Importance.
-We utilized the feature importance attribute of the Random Forest model and we can observe that the length of using the service plays a very important role.
+We utilized the feature importance attribute of the Random Forest model and we observed that the length of using the service plays a very important role.
 
 
 ![image](https://user-images.githubusercontent.com/39832553/113281035-fc66fb80-92dc-11eb-9ed4-550b35a375bd.png)
