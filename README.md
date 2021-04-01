@@ -47,6 +47,8 @@ The **Random Forest Model** as the Final Model because of its accuracy  and cond
 
 #### VI. Feature Importance.
 We utilized the feature importance attribute of the Random Forest model and we can observe that the length of using the service plays a very important role.
+
+
 ![image](https://user-images.githubusercontent.com/39832553/113281035-fc66fb80-92dc-11eb-9ed4-550b35a375bd.png)
 
 #### VII. Conclusion
